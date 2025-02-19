@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/wyq/wyq.egg-info/PKG-INFO
+../../build/wyq/wyq.egg-info/SOURCES.txt
+../../build/wyq/wyq.egg-info/dependency_links.txt
+../../build/wyq/wyq.egg-info/entry_points.txt
+../../build/wyq/wyq.egg-info/requires.txt
+../../build/wyq/wyq.egg-info/top_level.txt
+../../build/wyq/wyq.egg-info/zip-safe
+resource/wyq
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+wyq/__init__.py
+wyq/moveit_demo.py

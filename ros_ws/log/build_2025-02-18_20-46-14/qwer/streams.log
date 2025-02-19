@@ -1,0 +1,60 @@
+[0.008s] Invoking command in '/home/wyq/docker/ros_ws/build/qwer': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake /home/wyq/docker/ros_ws/src/qwer -DCMAKE_INSTALL_PREFIX=/home/wyq/docker/ros_ws/install/qwer
+[0.080s] -- The C compiler identification is GNU 11.4.0
+[0.134s] -- The CXX compiler identification is GNU 11.4.0
+[0.144s] -- Detecting C compiler ABI info
+[0.218s] -- Detecting C compiler ABI info - done
+[0.231s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.231s] -- Detecting C compile features
+[0.235s] -- Detecting C compile features - done
+[0.239s] -- Detecting CXX compiler ABI info
+[0.333s] -- Detecting CXX compiler ABI info - done
+[0.341s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.341s] -- Detecting CXX compile features
+[0.342s] -- Detecting CXX compile features - done
+[0.346s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.474s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.607s] -- Configuring done
+[0.607s] -- Generating done
+[0.609s] -- Build files have been written to: /home/wyq/docker/ros_ws/build/qwer
+[0.614s] Invoked command in '/home/wyq/docker/ros_ws/build/qwer' returned '0': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake /home/wyq/docker/ros_ws/src/qwer -DCMAKE_INSTALL_PREFIX=/home/wyq/docker/ros_ws/install/qwer
+[0.615s] Invoking command in '/home/wyq/docker/ros_ws/build/qwer': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/ros_ws/build/qwer -- -j4 -l4
+[0.650s] Invoked command in '/home/wyq/docker/ros_ws/build/qwer' returned '0': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/ros_ws/build/qwer -- -j4 -l4
+[0.653s] Invoking command in '/home/wyq/docker/ros_ws/build/qwer': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/ros_ws/build/qwer
+[0.662s] -- Install configuration: ""
+[0.662s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/ament_index/resource_index/package_run_dependencies/qwer
+[0.662s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/ament_index/resource_index/parent_prefix_path/qwer
+[0.663s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/environment/ament_prefix_path.sh
+[0.663s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/environment/ament_prefix_path.dsv
+[0.663s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/environment/path.sh
+[0.664s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/environment/path.dsv
+[0.664s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/local_setup.bash
+[0.664s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/local_setup.sh
+[0.664s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/local_setup.zsh
+[0.664s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/local_setup.dsv
+[0.664s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/package.dsv
+[0.664s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/ament_index/resource_index/packages/qwer
+[0.664s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/cmake/qwerConfig.cmake
+[0.664s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/cmake/qwerConfig-version.cmake
+[0.664s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/package.xml
+[0.664s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/launch
+[0.664s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/launch/move_group.launch.py
+[0.664s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/launch/rsp.launch.py
+[0.664s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/launch/moveit_rviz.launch.py
+[0.664s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/launch/warehouse_db.launch.py
+[0.664s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/launch/setup_assistant.launch.py
+[0.664s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/launch/demo.launch.py
+[0.665s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/launch/spawn_controllers.launch.py
+[0.665s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/launch/static_virtual_joint_tfs.launch.py
+[0.665s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/config
+[0.665s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/config/initial_positions.yaml
+[0.665s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/config/kinematics.yaml
+[0.665s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/config/ros2_controllers.yaml
+[0.665s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/config/moveit.rviz
+[0.665s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/config/panda.ros2_control.xacro
+[0.665s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/config/joint_limits.yaml
+[0.665s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/config/panda.urdf.xacro
+[0.665s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/config/moveit_controllers.yaml
+[0.665s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/config/panda.srdf
+[0.665s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/config/pilz_cartesian_limits.yaml
+[0.665s] -- Installing: /home/wyq/docker/ros_ws/install/qwer/share/qwer/.setup_assistant
+[0.668s] Invoked command in '/home/wyq/docker/ros_ws/build/qwer' returned '0': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/ros_ws/build/qwer

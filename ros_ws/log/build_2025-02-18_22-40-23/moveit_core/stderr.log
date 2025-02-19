@@ -1,0 +1,19 @@
+[0mTODO: Analyse and fix gcc's maybe-uninitialized warnings[0m
+[0mmoveit_core: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[31mCMake Error at CMakeLists.txt:47 (find_package):
+  By not providing "Findruckig.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "ruckig", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "ruckig" with any
+  of the following names:
+
+    ruckigConfig.cmake
+    ruckig-config.cmake
+
+  Add the installation prefix of "ruckig" to CMAKE_PREFIX_PATH or set
+  "ruckig_DIR" to a directory containing one of the above files.  If "ruckig"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+[0m

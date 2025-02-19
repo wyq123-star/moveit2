@@ -1,0 +1,25 @@
+[0.468s] Invoking command in '/home/wyq/docker/ros_ws/src/wyq': PYTHONPATH=/home/wyq/docker/ros_ws/build/wyq/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wyq/docker/ros_ws/install/wyq/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wyq build --build-base /home/wyq/docker/ros_ws/build/wyq/build install --record /home/wyq/docker/ros_ws/build/wyq/install.log --single-version-externally-managed install_data
+[0.628s] running egg_info
+[0.628s] writing ../../build/wyq/wyq.egg-info/PKG-INFO
+[0.629s] writing dependency_links to ../../build/wyq/wyq.egg-info/dependency_links.txt
+[0.629s] writing entry points to ../../build/wyq/wyq.egg-info/entry_points.txt
+[0.629s] writing requirements to ../../build/wyq/wyq.egg-info/requires.txt
+[0.629s] writing top-level names to ../../build/wyq/wyq.egg-info/top_level.txt
+[0.631s] reading manifest file '../../build/wyq/wyq.egg-info/SOURCES.txt'
+[0.631s] adding license file 'LICENSE'
+[0.631s] writing manifest file '../../build/wyq/wyq.egg-info/SOURCES.txt'
+[0.631s] running build
+[0.631s] running build_py
+[0.631s] copying wyq/moveit_demo.py -> /home/wyq/docker/ros_ws/build/wyq/build/lib/wyq
+[0.632s] running install
+[0.632s] running install_lib
+[0.633s] copying /home/wyq/docker/ros_ws/build/wyq/build/lib/wyq/moveit_demo.py -> /home/wyq/docker/ros_ws/install/wyq/lib/python3.10/site-packages/wyq
+[0.634s] byte-compiling /home/wyq/docker/ros_ws/install/wyq/lib/python3.10/site-packages/wyq/moveit_demo.py to moveit_demo.cpython-310.pyc
+[0.634s] running install_data
+[0.634s] running install_egg_info
+[0.636s] removing '/home/wyq/docker/ros_ws/install/wyq/lib/python3.10/site-packages/wyq-0.0.0-py3.10.egg-info' (and everything under it)
+[0.636s] Copying ../../build/wyq/wyq.egg-info to /home/wyq/docker/ros_ws/install/wyq/lib/python3.10/site-packages/wyq-0.0.0-py3.10.egg-info
+[0.636s] running install_scripts
+[0.649s] Installing moveit_demo script to /home/wyq/docker/ros_ws/install/wyq/lib/wyq
+[0.649s] writing list of installed files to '/home/wyq/docker/ros_ws/build/wyq/install.log'
+[0.664s] Invoked command in '/home/wyq/docker/ros_ws/src/wyq' returned '0': PYTHONPATH=/home/wyq/docker/ros_ws/build/wyq/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wyq/docker/ros_ws/install/wyq/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wyq build --build-base /home/wyq/docker/ros_ws/build/wyq/build install --record /home/wyq/docker/ros_ws/build/wyq/install.log --single-version-externally-managed install_data

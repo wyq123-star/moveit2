@@ -1,0 +1,636 @@
+[0.069s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.069s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x733395068550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73339502bfa0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73339502bfa0>>)
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.177s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wyq/docker/ros_ws'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/dual_arm_panda_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/dual_arm_panda_moveit_config) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/dual_arm_panda_moveit_config) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/dual_arm_panda_moveit_config) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/dual_arm_panda_moveit_config) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/dual_arm_panda_moveit_config) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/dual_arm_panda_moveit_config) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/dual_arm_panda_moveit_config) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/dual_arm_panda_moveit_config) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_resources/dual_arm_panda_moveit_config' with type 'ros.ament_cmake' and name 'dual_arm_panda_moveit_config'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/fanuc_description) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/fanuc_description) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/fanuc_description) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/fanuc_description) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/fanuc_description) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/fanuc_description) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/fanuc_description) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/fanuc_description) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/fanuc_description) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_resources/fanuc_description' with type 'ros.ament_cmake' and name 'moveit_resources_fanuc_description'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/fanuc_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/fanuc_moveit_config) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/fanuc_moveit_config) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/fanuc_moveit_config) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/fanuc_moveit_config) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/fanuc_moveit_config) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/fanuc_moveit_config) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/fanuc_moveit_config) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/fanuc_moveit_config) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_resources/fanuc_moveit_config' with type 'ros.ament_cmake' and name 'moveit_resources_fanuc_moveit_config'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/moveit_resources) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/moveit_resources) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/moveit_resources) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/moveit_resources) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/moveit_resources) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/moveit_resources) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/moveit_resources) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/moveit_resources) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/moveit_resources) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_resources/moveit_resources' with type 'ros.ament_cmake' and name 'moveit_resources'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/panda_description) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/panda_description) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/panda_description) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/panda_description) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/panda_description) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/panda_description) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/panda_description) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/panda_description) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/panda_description) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_resources/panda_description' with type 'ros.ament_cmake' and name 'moveit_resources_panda_description'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/panda_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/panda_moveit_config) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/panda_moveit_config) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/panda_moveit_config) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/panda_moveit_config) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/panda_moveit_config) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/panda_moveit_config) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/panda_moveit_config) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/panda_moveit_config) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_resources/panda_moveit_config' with type 'ros.ament_cmake' and name 'moveit_resources_panda_moveit_config'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/pr2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/pr2_description) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/pr2_description) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/pr2_description) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/pr2_description) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/pr2_description) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/pr2_description) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/pr2_description) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_resources/pr2_description) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_resources/pr2_description' with type 'ros.ament_cmake' and name 'moveit_resources_pr2_description'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/qwer) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/qwer) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/qwer) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/qwer) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/qwer) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/qwer) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/qwer) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/qwer) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/qwer) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/qwer' with type 'ros.ament_cmake' and name 'qwer'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/wyq) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/wyq) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/wyq) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/wyq) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/wyq) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/wyq) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/wyq) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/wyq) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/wyq) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wyq' with type 'ros.ament_python' and name 'wyq'
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.216s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 381 installed packages in /opt/ros/humble
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_description' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_description' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_resources_fanuc_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wyq/docker/ros_ws/build/moveit_resources_fanuc_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description', 'merge_install': False, 'path': '/home/wyq/docker/ros_ws/src/moveit_resources/fanuc_description', 'symlink_install': False, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_resources_panda_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wyq/docker/ros_ws/build/moveit_resources_panda_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description', 'merge_install': False, 'path': '/home/wyq/docker/ros_ws/src/moveit_resources/panda_description', 'symlink_install': False, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_pr2_description' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_pr2_description' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_pr2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_pr2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_pr2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_pr2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_pr2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_pr2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_pr2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_resources_pr2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wyq/docker/ros_ws/build/moveit_resources_pr2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description', 'merge_install': False, 'path': '/home/wyq/docker/ros_ws/src/moveit_resources/pr2_description', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'wyq' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'wyq' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'wyq' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'wyq' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'wyq' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'wyq' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'wyq' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'wyq' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'wyq' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'wyq' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wyq/docker/ros_ws/build/wyq', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wyq/docker/ros_ws/install/wyq', 'merge_install': False, 'path': '/home/wyq/docker/ros_ws/src/wyq', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'dual_arm_panda_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'dual_arm_panda_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'dual_arm_panda_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'dual_arm_panda_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'dual_arm_panda_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'dual_arm_panda_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'dual_arm_panda_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'dual_arm_panda_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'dual_arm_panda_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'dual_arm_panda_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wyq/docker/ros_ws/build/dual_arm_panda_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config', 'merge_install': False, 'path': '/home/wyq/docker/ros_ws/src/moveit_resources/dual_arm_panda_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_fanuc_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_resources_fanuc_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wyq/docker/ros_ws/build/moveit_resources_fanuc_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config', 'merge_install': False, 'path': '/home/wyq/docker/ros_ws/src/moveit_resources/fanuc_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_resources_panda_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wyq/docker/ros_ws/build/moveit_resources_panda_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config', 'merge_install': False, 'path': '/home/wyq/docker/ros_ws/src/moveit_resources/panda_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'qwer' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'qwer' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'qwer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'qwer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'qwer' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'qwer' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'qwer' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'qwer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'qwer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'qwer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wyq/docker/ros_ws/build/qwer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wyq/docker/ros_ws/install/qwer', 'merge_install': False, 'path': '/home/wyq/docker/ros_ws/src/qwer', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_resources' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wyq/docker/ros_ws/build/moveit_resources', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wyq/docker/ros_ws/install/moveit_resources', 'merge_install': False, 'path': '/home/wyq/docker/ros_ws/src/moveit_resources/moveit_resources', 'symlink_install': False, 'test_result_base': None}
+[0.249s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.250s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.251s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wyq/docker/ros_ws/src/moveit_resources/panda_description' with build type 'ament_cmake'
+[0.251s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wyq/docker/ros_ws/src/moveit_resources/panda_description'
+[0.252s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.252s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.256s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wyq/docker/ros_ws/src/moveit_resources/fanuc_description' with build type 'ament_cmake'
+[0.256s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wyq/docker/ros_ws/src/moveit_resources/fanuc_description'
+[0.256s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.256s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.261s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wyq/docker/ros_ws/src/moveit_resources/pr2_description' with build type 'ament_cmake'
+[0.261s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wyq/docker/ros_ws/src/moveit_resources/pr2_description'
+[0.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.264s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wyq/docker/ros_ws/src/wyq' with build type 'ament_python'
+[0.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('wyq', 'ament_prefix_path')
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/wyq/share/wyq/hook/ament_prefix_path.ps1'
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyq/docker/ros_ws/install/wyq/share/wyq/hook/ament_prefix_path.dsv'
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/wyq/share/wyq/hook/ament_prefix_path.sh'
+[0.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyq/docker/ros_ws/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/ros_ws/build/moveit_resources_panda_description -- -j4 -l4
+[0.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyq/docker/ros_ws/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/ros_ws/build/moveit_resources_fanuc_description -- -j4 -l4
+[0.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyq/docker/ros_ws/build/moveit_resources_pr2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/ros_ws/build/moveit_resources_pr2_description -- -j4 -l4
+[0.481s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wyq/docker/ros_ws/src/wyq'
+[0.481s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.481s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyq/docker/ros_ws/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/ros_ws/build/moveit_resources_panda_description -- -j4 -l4
+[0.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyq/docker/ros_ws/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/ros_ws/build/moveit_resources_panda_description
+[0.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyq/docker/ros_ws/build/moveit_resources_pr2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/ros_ws/build/moveit_resources_pr2_description -- -j4 -l4
+[0.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyq/docker/ros_ws/build/moveit_resources_pr2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/ros_ws/build/moveit_resources_pr2_description
+[0.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyq/docker/ros_ws/build/moveit_resources_fanuc_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/ros_ws/build/moveit_resources_fanuc_description -- -j4 -l4
+[0.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyq/docker/ros_ws/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/ros_ws/build/moveit_resources_fanuc_description
+[0.546s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_panda_description)
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description' for CMake module files
+[0.552s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description' for CMake config files
+[0.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_panda_description', 'cmake_prefix_path')
+[0.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/hook/cmake_prefix_path.ps1'
+[0.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/hook/cmake_prefix_path.dsv'
+[0.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/hook/cmake_prefix_path.sh'
+[0.554s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/bin'
+[0.554s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/lib/pkgconfig/moveit_resources_panda_description.pc'
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/lib/python3.10/site-packages'
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/bin'
+[0.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.ps1'
+[0.555s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.dsv'
+[0.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.sh'
+[0.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.bash'
+[0.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.zsh'
+[0.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/share/colcon-core/packages/moveit_resources_panda_description)
+[0.563s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_panda_description)
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description' for CMake module files
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description' for CMake config files
+[0.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_panda_description', 'cmake_prefix_path')
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/hook/cmake_prefix_path.ps1'
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/hook/cmake_prefix_path.dsv'
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/hook/cmake_prefix_path.sh'
+[0.565s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/bin'
+[0.565s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/lib/pkgconfig/moveit_resources_panda_description.pc'
+[0.565s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/lib/python3.10/site-packages'
+[0.565s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/bin'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.ps1'
+[0.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.dsv'
+[0.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.sh'
+[0.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.bash'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.zsh'
+[0.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyq/docker/ros_ws/install/moveit_resources_panda_description/share/colcon-core/packages/moveit_resources_panda_description)
+[0.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_fanuc_description)
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description' for CMake module files
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description' for CMake config files
+[0.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_fanuc_description', 'cmake_prefix_path')
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/hook/cmake_prefix_path.ps1'
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/hook/cmake_prefix_path.dsv'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/hook/cmake_prefix_path.sh'
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/bin'
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/lib/pkgconfig/moveit_resources_fanuc_description.pc'
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/lib/python3.10/site-packages'
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/bin'
+[0.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.ps1'
+[0.587s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.dsv'
+[0.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyq/docker/ros_ws/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/ros_ws/build/moveit_resources_panda_description
+[0.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.sh'
+[0.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyq/docker/ros_ws/build/moveit_resources_fanuc_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/ros_ws/build/moveit_resources_fanuc_description
+[0.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.bash'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.zsh'
+[0.592s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/share/colcon-core/packages/moveit_resources_fanuc_description)
+[0.592s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_fanuc_description)
+[0.592s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description' for CMake module files
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description' for CMake config files
+[0.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_fanuc_description', 'cmake_prefix_path')
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/hook/cmake_prefix_path.ps1'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/hook/cmake_prefix_path.dsv'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/hook/cmake_prefix_path.sh'
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/bin'
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/lib/pkgconfig/moveit_resources_fanuc_description.pc'
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/lib/python3.10/site-packages'
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/bin'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.ps1'
+[0.597s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.dsv'
+[0.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.sh'
+[0.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.bash'
+[0.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.zsh'
+[0.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description/share/colcon-core/packages/moveit_resources_fanuc_description)
+[0.599s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wyq/docker/ros_ws/src/moveit_resources/fanuc_moveit_config' with build type 'ament_cmake'
+[0.600s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wyq/docker/ros_ws/src/moveit_resources/fanuc_moveit_config'
+[0.600s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.600s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.605s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wyq/docker/ros_ws/src/moveit_resources/panda_moveit_config' with build type 'ament_cmake'
+[0.605s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wyq/docker/ros_ws/src/moveit_resources/panda_moveit_config'
+[0.605s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.606s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.612s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_pr2_description)
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description' for CMake module files
+[0.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyq/docker/ros_ws/build/moveit_resources_pr2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/ros_ws/build/moveit_resources_pr2_description
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description' for CMake config files
+[0.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_pr2_description', 'cmake_prefix_path')
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/hook/cmake_prefix_path.ps1'
+[0.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/hook/cmake_prefix_path.dsv'
+[0.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/hook/cmake_prefix_path.sh'
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/bin'
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/lib/pkgconfig/moveit_resources_pr2_description.pc'
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/lib/python3.10/site-packages'
+[0.622s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/bin'
+[0.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.ps1'
+[0.623s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.dsv'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.sh'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.bash'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.zsh'
+[0.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/share/colcon-core/packages/moveit_resources_pr2_description)
+[0.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_pr2_description)
+[0.628s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description' for CMake module files
+[0.628s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description' for CMake config files
+[0.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_pr2_description', 'cmake_prefix_path')
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/hook/cmake_prefix_path.ps1'
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/hook/cmake_prefix_path.dsv'
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/hook/cmake_prefix_path.sh'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/bin'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/lib/pkgconfig/moveit_resources_pr2_description.pc'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/lib/python3.10/site-packages'
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/bin'
+[0.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.ps1'
+[0.636s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.dsv'
+[0.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.sh'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.bash'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/share/moveit_resources_pr2_description/package.zsh'
+[0.637s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description/share/colcon-core/packages/moveit_resources_pr2_description)
+[0.638s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wyq/docker/ros_ws/src/moveit_resources/dual_arm_panda_moveit_config' with build type 'ament_cmake'
+[0.638s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wyq/docker/ros_ws/src/moveit_resources/dual_arm_panda_moveit_config'
+[0.653s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.653s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyq/docker/ros_ws/build/moveit_resources_fanuc_moveit_config': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description:/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/ros_ws/build/moveit_resources_fanuc_moveit_config -- -j4 -l4
+[0.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyq/docker/ros_ws/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/ros_ws/build/moveit_resources_panda_moveit_config -- -j4 -l4
+[0.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyq/docker/ros_ws/build/dual_arm_panda_moveit_config': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/ros_ws/build/dual_arm_panda_moveit_config -- -j4 -l4
+[0.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyq/docker/ros_ws/build/moveit_resources_fanuc_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description:/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/ros_ws/build/moveit_resources_fanuc_moveit_config -- -j4 -l4
+[0.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyq/docker/ros_ws/build/moveit_resources_fanuc_moveit_config': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description:/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/ros_ws/build/moveit_resources_fanuc_moveit_config
+[0.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyq/docker/ros_ws/build/dual_arm_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/ros_ws/build/dual_arm_panda_moveit_config -- -j4 -l4
+[0.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyq/docker/ros_ws/build/dual_arm_panda_moveit_config': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/ros_ws/build/dual_arm_panda_moveit_config
+[0.834s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_fanuc_moveit_config)
+[0.834s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config' for CMake module files
+[0.834s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config' for CMake config files
+[0.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_fanuc_moveit_config', 'cmake_prefix_path')
+[0.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/hook/cmake_prefix_path.ps1'
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/hook/cmake_prefix_path.dsv'
+[0.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyq/docker/ros_ws/build/moveit_resources_fanuc_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description:/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/ros_ws/build/moveit_resources_fanuc_moveit_config
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/hook/cmake_prefix_path.sh'
+[0.849s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/bin'
+[0.849s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/lib/pkgconfig/moveit_resources_fanuc_moveit_config.pc'
+[0.849s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/lib/python3.10/site-packages'
+[0.850s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/bin'
+[0.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.ps1'
+[0.851s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.dsv'
+[0.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.sh'
+[0.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.bash'
+[0.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.zsh'
+[0.852s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/share/colcon-core/packages/moveit_resources_fanuc_moveit_config)
+[0.854s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_fanuc_moveit_config)
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config' for CMake module files
+[0.855s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config' for CMake config files
+[0.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_fanuc_moveit_config', 'cmake_prefix_path')
+[0.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/hook/cmake_prefix_path.ps1'
+[0.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/hook/cmake_prefix_path.dsv'
+[0.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/hook/cmake_prefix_path.sh'
+[0.857s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/bin'
+[0.857s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/lib/pkgconfig/moveit_resources_fanuc_moveit_config.pc'
+[0.857s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/lib/python3.10/site-packages'
+[0.857s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/bin'
+[0.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.ps1'
+[0.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.dsv'
+[0.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.sh'
+[0.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.bash'
+[0.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.zsh'
+[0.860s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config/share/colcon-core/packages/moveit_resources_fanuc_moveit_config)
+[0.861s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wyq/docker/ros_ws/src/qwer' with build type 'ament_cmake'
+[0.861s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wyq/docker/ros_ws/src/qwer'
+[0.861s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.861s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.866s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dual_arm_panda_moveit_config)
+[0.867s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config' for CMake module files
+[0.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyq/docker/ros_ws/build/dual_arm_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/ros_ws/build/dual_arm_panda_moveit_config
+[0.873s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config' for CMake config files
+[0.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('dual_arm_panda_moveit_config', 'cmake_prefix_path')
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/hook/cmake_prefix_path.ps1'
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/hook/cmake_prefix_path.dsv'
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/hook/cmake_prefix_path.sh'
+[0.875s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/bin'
+[0.875s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/lib/pkgconfig/dual_arm_panda_moveit_config.pc'
+[0.875s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/lib/python3.10/site-packages'
+[0.875s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/bin'
+[0.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/package.ps1'
+[0.876s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/package.dsv'
+[0.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/package.sh'
+[0.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/package.bash'
+[0.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/package.zsh'
+[0.879s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/share/colcon-core/packages/dual_arm_panda_moveit_config)
+[0.882s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dual_arm_panda_moveit_config)
+[0.882s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config' for CMake module files
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config' for CMake config files
+[0.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('dual_arm_panda_moveit_config', 'cmake_prefix_path')
+[0.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/hook/cmake_prefix_path.ps1'
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/hook/cmake_prefix_path.dsv'
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/hook/cmake_prefix_path.sh'
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/bin'
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/lib/pkgconfig/dual_arm_panda_moveit_config.pc'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/lib/python3.10/site-packages'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/bin'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/package.ps1'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/package.dsv'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/package.sh'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/package.bash'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/package.zsh'
+[0.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyq/docker/ros_ws/install/dual_arm_panda_moveit_config/share/colcon-core/packages/dual_arm_panda_moveit_config)
+[0.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyq/docker/ros_ws/build/moveit_resources_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/ros_ws/build/moveit_resources_panda_moveit_config -- -j4 -l4
+[0.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyq/docker/ros_ws/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/ros_ws/build/moveit_resources_panda_moveit_config
+[0.920s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_panda_moveit_config)
+[0.921s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config' for CMake module files
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config' for CMake config files
+[0.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_panda_moveit_config', 'cmake_prefix_path')
+[0.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/hook/cmake_prefix_path.ps1'
+[0.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/hook/cmake_prefix_path.dsv'
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/hook/cmake_prefix_path.sh'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/bin'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/lib/pkgconfig/moveit_resources_panda_moveit_config.pc'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/lib/python3.10/site-packages'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/bin'
+[0.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyq/docker/ros_ws/build/qwer': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/ros_ws/build/qwer -- -j4 -l4
+[0.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.ps1'
+[0.934s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.dsv'
+[0.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.sh'
+[0.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.bash'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.zsh'
+[0.940s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/share/colcon-core/packages/moveit_resources_panda_moveit_config)
+[0.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyq/docker/ros_ws/build/moveit_resources_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/ros_ws/build/moveit_resources_panda_moveit_config
+[0.942s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_panda_moveit_config)
+[0.942s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config' for CMake module files
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config' for CMake config files
+[0.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_panda_moveit_config', 'cmake_prefix_path')
+[0.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/hook/cmake_prefix_path.ps1'
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/hook/cmake_prefix_path.dsv'
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/hook/cmake_prefix_path.sh'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/bin'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/lib/pkgconfig/moveit_resources_panda_moveit_config.pc'
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/lib/python3.10/site-packages'
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/bin'
+[0.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.ps1'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.dsv'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.sh'
+[0.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.bash'
+[0.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.zsh'
+[0.956s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config/share/colcon-core/packages/moveit_resources_panda_moveit_config)
+[0.956s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wyq/docker/ros_ws/src/moveit_resources/moveit_resources' with build type 'ament_cmake'
+[0.957s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wyq/docker/ros_ws/src/moveit_resources/moveit_resources'
+[0.957s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.957s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyq/docker/ros_ws/build/qwer' returned '0': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/ros_ws/build/qwer -- -j4 -l4
+[0.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyq/docker/ros_ws/build/qwer': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/ros_ws/build/qwer
+[0.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyq/docker/ros_ws/build/moveit_resources': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config:/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config:/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description:/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config:/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config:/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description:/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description:/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/ros_ws/build/moveit_resources -- -j4 -l4
+[0.996s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qwer)
+[0.996s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/qwer' for CMake module files
+[0.996s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/qwer' for CMake config files
+[0.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('qwer', 'cmake_prefix_path')
+[0.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/qwer/share/qwer/hook/cmake_prefix_path.ps1'
+[0.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyq/docker/ros_ws/install/qwer/share/qwer/hook/cmake_prefix_path.dsv'
+[0.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/qwer/share/qwer/hook/cmake_prefix_path.sh'
+[1.000s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/qwer/bin'
+[1.001s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/qwer/lib/pkgconfig/qwer.pc'
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/qwer/lib/python3.10/site-packages'
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/qwer/bin'
+[1.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/qwer/share/qwer/package.ps1'
+[1.004s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyq/docker/ros_ws/install/qwer/share/qwer/package.dsv'
+[1.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/qwer/share/qwer/package.sh'
+[1.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/qwer/share/qwer/package.bash'
+[1.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/qwer/share/qwer/package.zsh'
+[1.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyq/docker/ros_ws/build/qwer' returned '0': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/ros_ws/build/qwer
+[1.008s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyq/docker/ros_ws/install/qwer/share/colcon-core/packages/qwer)
+[1.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qwer)
+[1.009s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/qwer' for CMake module files
+[1.009s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/qwer' for CMake config files
+[1.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('qwer', 'cmake_prefix_path')
+[1.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/qwer/share/qwer/hook/cmake_prefix_path.ps1'
+[1.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyq/docker/ros_ws/install/qwer/share/qwer/hook/cmake_prefix_path.dsv'
+[1.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/qwer/share/qwer/hook/cmake_prefix_path.sh'
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/qwer/bin'
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/qwer/lib/pkgconfig/qwer.pc'
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/qwer/lib/python3.10/site-packages'
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/qwer/bin'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/qwer/share/qwer/package.ps1'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyq/docker/ros_ws/install/qwer/share/qwer/package.dsv'
+[1.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/qwer/share/qwer/package.sh'
+[1.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/qwer/share/qwer/package.bash'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/qwer/share/qwer/package.zsh'
+[1.018s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyq/docker/ros_ws/install/qwer/share/colcon-core/packages/qwer)
+[1.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyq/docker/ros_ws/build/moveit_resources' returned '0': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config:/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config:/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description:/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config:/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config:/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description:/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description:/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/ros_ws/build/moveit_resources -- -j4 -l4
+[1.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyq/docker/ros_ws/build/moveit_resources': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config:/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config:/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description:/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config:/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config:/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description:/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description:/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/ros_ws/build/moveit_resources
+[1.092s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources)
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources' for CMake module files
+[1.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyq/docker/ros_ws/build/moveit_resources' returned '0': AMENT_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config:/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config:/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description:/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyq/docker/ros_ws/install/moveit_resources_panda_moveit_config:/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_moveit_config:/home/wyq/docker/ros_ws/install/moveit_resources_pr2_description:/home/wyq/docker/ros_ws/install/moveit_resources_panda_description:/home/wyq/docker/ros_ws/install/moveit_resources_fanuc_description:/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/ros_ws/build/moveit_resources
+[1.093s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources' for CMake config files
+[1.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources', 'cmake_prefix_path')
+[1.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources/share/moveit_resources/hook/cmake_prefix_path.ps1'
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyq/docker/ros_ws/install/moveit_resources/share/moveit_resources/hook/cmake_prefix_path.dsv'
+[1.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources/share/moveit_resources/hook/cmake_prefix_path.sh'
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources/bin'
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources/lib/pkgconfig/moveit_resources.pc'
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources/lib/python3.10/site-packages'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources/bin'
+[1.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources/share/moveit_resources/package.ps1'
+[1.097s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyq/docker/ros_ws/install/moveit_resources/share/moveit_resources/package.dsv'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources/share/moveit_resources/package.sh'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources/share/moveit_resources/package.bash'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources/share/moveit_resources/package.zsh'
+[1.101s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyq/docker/ros_ws/install/moveit_resources/share/colcon-core/packages/moveit_resources)
+[1.102s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources)
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources' for CMake module files
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources' for CMake config files
+[1.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources', 'cmake_prefix_path')
+[1.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources/share/moveit_resources/hook/cmake_prefix_path.ps1'
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyq/docker/ros_ws/install/moveit_resources/share/moveit_resources/hook/cmake_prefix_path.dsv'
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/moveit_resources/share/moveit_resources/hook/cmake_prefix_path.sh'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources/bin'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources/lib/pkgconfig/moveit_resources.pc'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources/lib/python3.10/site-packages'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/moveit_resources/bin'
+[1.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources/share/moveit_resources/package.ps1'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyq/docker/ros_ws/install/moveit_resources/share/moveit_resources/package.dsv'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources/share/moveit_resources/package.sh'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources/share/moveit_resources/package.bash'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/moveit_resources/share/moveit_resources/package.zsh'
+[1.110s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyq/docker/ros_ws/install/moveit_resources/share/colcon-core/packages/moveit_resources)
+[1.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyq/docker/ros_ws/src/wyq': PYTHONPATH=/home/wyq/docker/ros_ws/build/wyq/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wyq/docker/ros_ws/install/wyq/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wyq build --build-base /home/wyq/docker/ros_ws/build/wyq/build install --record /home/wyq/docker/ros_ws/build/wyq/install.log --single-version-externally-managed install_data
+[1.391s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/wyq' for CMake module files
+[1.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyq/docker/ros_ws/src/wyq' returned '0': PYTHONPATH=/home/wyq/docker/ros_ws/build/wyq/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wyq/docker/ros_ws/install/wyq/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wyq build --build-base /home/wyq/docker/ros_ws/build/wyq/build install --record /home/wyq/docker/ros_ws/build/wyq/install.log --single-version-externally-managed install_data
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/wyq' for CMake config files
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/wyq/lib'
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/wyq/bin'
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/wyq/lib/pkgconfig/wyq.pc'
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/wyq/lib/python3.10/site-packages'
+[1.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('wyq', 'pythonpath')
+[1.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/wyq/share/wyq/hook/pythonpath.ps1'
+[1.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyq/docker/ros_ws/install/wyq/share/wyq/hook/pythonpath.dsv'
+[1.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyq/docker/ros_ws/install/wyq/share/wyq/hook/pythonpath.sh'
+[1.395s] Level 1:colcon.colcon_core.environment:checking '/home/wyq/docker/ros_ws/install/wyq/bin'
+[1.395s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wyq)
+[1.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/wyq/share/wyq/package.ps1'
+[1.396s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyq/docker/ros_ws/install/wyq/share/wyq/package.dsv'
+[1.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/wyq/share/wyq/package.sh'
+[1.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/wyq/share/wyq/package.bash'
+[1.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyq/docker/ros_ws/install/wyq/share/wyq/package.zsh'
+[1.398s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyq/docker/ros_ws/install/wyq/share/colcon-core/packages/wyq)
+[1.398s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.398s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.399s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.399s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.413s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.413s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.413s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.428s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.428s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wyq/docker/ros_ws/install/local_setup.ps1'
+[1.429s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wyq/docker/ros_ws/install/_local_setup_util_ps1.py'
+[1.432s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wyq/docker/ros_ws/install/setup.ps1'
+[1.434s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wyq/docker/ros_ws/install/local_setup.sh'
+[1.435s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wyq/docker/ros_ws/install/_local_setup_util_sh.py'
+[1.436s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wyq/docker/ros_ws/install/setup.sh'
+[1.436s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wyq/docker/ros_ws/install/local_setup.bash'
+[1.437s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wyq/docker/ros_ws/install/setup.bash'
+[1.437s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wyq/docker/ros_ws/install/local_setup.zsh'
+[1.438s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wyq/docker/ros_ws/install/setup.zsh'

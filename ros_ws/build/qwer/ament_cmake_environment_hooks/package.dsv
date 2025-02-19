@@ -1,0 +1,4 @@
+source;share/qwer/local_setup.bash
+source;share/qwer/local_setup.dsv
+source;share/qwer/local_setup.sh
+source;share/qwer/local_setup.zsh

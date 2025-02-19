@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/wyq/wyq.egg-info/PKG-INFO
+writing dependency_links to ../../build/wyq/wyq.egg-info/dependency_links.txt
+writing entry points to ../../build/wyq/wyq.egg-info/entry_points.txt
+writing requirements to ../../build/wyq/wyq.egg-info/requires.txt
+writing top-level names to ../../build/wyq/wyq.egg-info/top_level.txt
+reading manifest file '../../build/wyq/wyq.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/wyq/wyq.egg-info/SOURCES.txt'
+running build
+running build_py
+copying wyq/moveit_demo.py -> /home/wyq/docker/ros_ws/build/wyq/build/lib/wyq
+running install
+running install_lib
+copying /home/wyq/docker/ros_ws/build/wyq/build/lib/wyq/moveit_demo.py -> /home/wyq/docker/ros_ws/install/wyq/lib/python3.10/site-packages/wyq
+byte-compiling /home/wyq/docker/ros_ws/install/wyq/lib/python3.10/site-packages/wyq/moveit_demo.py to moveit_demo.cpython-310.pyc
+Sorry: IndentationError: expected an indented block after 'else' statement on line 34 (moveit_demo.py, line 35)
+running install_data
+running install_egg_info
+removing '/home/wyq/docker/ros_ws/install/wyq/lib/python3.10/site-packages/wyq-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/wyq/wyq.egg-info to /home/wyq/docker/ros_ws/install/wyq/lib/python3.10/site-packages/wyq-0.0.0-py3.10.egg-info
+running install_scripts
+Installing moveit_demo script to /home/wyq/docker/ros_ws/install/wyq/lib/wyq
+writing list of installed files to '/home/wyq/docker/ros_ws/build/wyq/install.log'

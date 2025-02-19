@@ -1,0 +1,3 @@
+[console_scripts]
+moveit_demo = wyq.moveit_demo:main
+

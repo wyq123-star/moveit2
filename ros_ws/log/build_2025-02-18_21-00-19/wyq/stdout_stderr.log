@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/wyq/wyq.egg-info
+writing ../../build/wyq/wyq.egg-info/PKG-INFO
+writing dependency_links to ../../build/wyq/wyq.egg-info/dependency_links.txt
+writing entry points to ../../build/wyq/wyq.egg-info/entry_points.txt
+writing requirements to ../../build/wyq/wyq.egg-info/requires.txt
+writing top-level names to ../../build/wyq/wyq.egg-info/top_level.txt
+writing manifest file '../../build/wyq/wyq.egg-info/SOURCES.txt'
+reading manifest file '../../build/wyq/wyq.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/wyq/wyq.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wyq/docker/ros_ws/build/wyq/build
+creating /home/wyq/docker/ros_ws/build/wyq/build/lib
+creating /home/wyq/docker/ros_ws/build/wyq/build/lib/wyq
+copying wyq/moveit_demo.py -> /home/wyq/docker/ros_ws/build/wyq/build/lib/wyq
+copying wyq/__init__.py -> /home/wyq/docker/ros_ws/build/wyq/build/lib/wyq
+running install
+running install_lib
+creating /home/wyq/docker/ros_ws/install/wyq/lib/python3.10/site-packages/wyq
+copying /home/wyq/docker/ros_ws/build/wyq/build/lib/wyq/moveit_demo.py -> /home/wyq/docker/ros_ws/install/wyq/lib/python3.10/site-packages/wyq
+copying /home/wyq/docker/ros_ws/build/wyq/build/lib/wyq/__init__.py -> /home/wyq/docker/ros_ws/install/wyq/lib/python3.10/site-packages/wyq
+byte-compiling /home/wyq/docker/ros_ws/install/wyq/lib/python3.10/site-packages/wyq/moveit_demo.py to moveit_demo.cpython-310.pyc
+byte-compiling /home/wyq/docker/ros_ws/install/wyq/lib/python3.10/site-packages/wyq/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/wyq/docker/ros_ws/install/wyq/share/ament_index
+creating /home/wyq/docker/ros_ws/install/wyq/share/ament_index/resource_index
+creating /home/wyq/docker/ros_ws/install/wyq/share/ament_index/resource_index/packages
+copying resource/wyq -> /home/wyq/docker/ros_ws/install/wyq/share/ament_index/resource_index/packages
+copying package.xml -> /home/wyq/docker/ros_ws/install/wyq/share/wyq
+running install_egg_info
+Copying ../../build/wyq/wyq.egg-info to /home/wyq/docker/ros_ws/install/wyq/lib/python3.10/site-packages/wyq-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/wyq/docker/ros_ws/build/wyq/install.log'

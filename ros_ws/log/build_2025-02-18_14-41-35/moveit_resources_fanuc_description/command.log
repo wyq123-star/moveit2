@@ -1,0 +1,2 @@
+Invoking command in '/ros_ws/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/wyq:/opt/ros/humble /usr/bin/cmake --build /ros_ws/build/moveit_resources_fanuc_description -- -j4 -l4
+Invoked command in '/ros_ws/build/moveit_resources_fanuc_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/wyq:/opt/ros/humble /usr/bin/cmake --build /ros_ws/build/moveit_resources_fanuc_description -- -j4 -l4

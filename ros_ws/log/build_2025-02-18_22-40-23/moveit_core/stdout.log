@@ -1,0 +1,20 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread iostreams regex 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'bullet'
+--   Found bullet, version 3.05
+-- Found Bullet: BulletSoftBody;BulletDynamics;BulletCollision;LinearMath (found suitable version "3.05", minimum required is "2.87") 
+-- Compiling with Bullet
+-- Configuring incomplete, errors occurred!
+See also "/home/wyq/docker/ros_ws/build/moveit_core/CMakeFiles/CMakeOutput.log".
