@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  ros2:
+    build: .  # 自动构建 Dockerfile
+    image: moveit2-container:latest  # 使用构建的镜像
+    container_name: moveit2-container
+    volumes:
+      - ../ros_ws:/ros_ws  # 挂载宿主机的 ros_ws 到容器
+      - /tmp/.X11-unix:/tmp/.X11-unix  # 共享 X11 服务器的 socket
+      - $HOME/.Xauthority:/root/.Xauthority  # 允许 root 访问 X11
+    working_dir: /ros_ws  # 设定工作目录为 docker_ws
+    stdin_open: true
+    tty: true
+    privileged: true  # 允许访问图形硬件（可选）
+    network_mode: host  # 使用主机网络，适用于 ROS 2 DDS 通信
+    environment:
+      - DISPLAY=${DISPLAY}  # 共享 X11 显示
+      - XAUTHORITY=/root/.Xauthority
+      - ROS_DOMAIN_ID=0  # 设置 ROS 2 通信域
+      - RMW_IMPLEMENTATION=rmw_fastrtps_cpp  # 选择 RMW 层
+    command: ["/bin/bash"]  # 启动后进入 bash
