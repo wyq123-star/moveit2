@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(qwer)
+project(assistant)
 
 find_package(ament_cmake REQUIRED)
 

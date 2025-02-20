@@ -1,3 +1,0 @@
-source;share/moveit_resources_pr2_description/hook/cmake_prefix_path.ps1
-source;share/moveit_resources_pr2_description/hook/cmake_prefix_path.dsv
-source;share/moveit_resources_pr2_description/hook/cmake_prefix_path.sh

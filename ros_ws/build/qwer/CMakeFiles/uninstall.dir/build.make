@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wyq/docker/ros_ws/src/qwer
+CMAKE_SOURCE_DIR = /home/wyq/docker/moveit2/ros_ws/src/assistant
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wyq/docker/ros_ws/build/qwer
+CMAKE_BINARY_DIR = /home/wyq/docker/moveit2/ros_ws/build/qwer
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/wyq/docker/ros_ws/build/qwer && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wyq/docker/ros_ws/src/qwer /home/wyq/docker/ros_ws/src/qwer /home/wyq/docker/ros_ws/build/qwer /home/wyq/docker/ros_ws/build/qwer /home/wyq/docker/ros_ws/build/qwer/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wyq/docker/moveit2/ros_ws/build/qwer && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wyq/docker/moveit2/ros_ws/src/assistant /home/wyq/docker/moveit2/ros_ws/src/assistant /home/wyq/docker/moveit2/ros_ws/build/qwer /home/wyq/docker/moveit2/ros_ws/build/qwer /home/wyq/docker/moveit2/ros_ws/build/qwer/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

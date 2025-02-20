@@ -1,0 +1,3 @@
+[console_scripts]
+demo_moveit_node = my_moveit2.demo_moveit_node:main
+

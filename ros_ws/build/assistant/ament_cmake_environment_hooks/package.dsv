@@ -1,0 +1,4 @@
+source;share/assistant/local_setup.bash
+source;share/assistant/local_setup.dsv
+source;share/assistant/local_setup.sh
+source;share/assistant/local_setup.zsh

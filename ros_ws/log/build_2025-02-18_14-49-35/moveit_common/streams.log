@@ -1,2 +1,0 @@
-[0.033s] Invoking command in '/ros_ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/wyq:/opt/ros/humble /usr/bin/cmake --build /ros_ws/build/moveit_common -- -j4 -l4
-[0.205s] Invoked command in '/ros_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/wyq:/opt/ros/humble /usr/bin/cmake --build /ros_ws/build/moveit_common -- -j4 -l4
