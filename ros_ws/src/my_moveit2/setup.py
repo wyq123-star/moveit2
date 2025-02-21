@@ -22,7 +22,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'demo_moveit_node = my_moveit2.demo_moveit_node:main',
+            'demo_moveit_node = my_moveit2.demo_moveit_node:main',  # 正确注册节点
         ],
     },
 )
