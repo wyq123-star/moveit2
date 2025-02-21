@@ -11,9 +11,6 @@ RUN apt-get update && apt-get install -y \
 RUN mkdir -p /ros_ws/src
 WORKDIR /ros_ws
 
-# 复制依赖文件
-COPY moveit_dependencies.txt .
-
 # 设置默认 shell 为 bash
 SHELL ["/bin/bash", "-c"]
 
@@ -24,7 +21,7 @@ RUN source /opt/ros/humble/setup.bash && \
 
 # 安装 MoveIt 2 相关依赖
 RUN apt-get update && apt-get install -y \
-    ros-humble-moveit-resources-panda-description \  
+    ros-humble-moveit-resources-panda-description \
     ros-humble-moveit \
     ros-humble-moveit-core \
     ros-humble-moveit-planners \
@@ -35,6 +32,7 @@ RUN apt-get update && apt-get install -y \
     ros-humble-moveit-ros-control-interface \
     ros-humble-moveit-ros-robot-interaction \
     ros-humble-moveit-setup-assistant \
+    ros-humble-controller-manager \
     && rm -rf /var/lib/apt/lists/*
 
 # 构建 ROS 2 工作空间
