@@ -11,7 +11,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/launch', ['launch/launch.py']),  # 注册 launch 文件夹
-        ('share/' + package_name + '/urdf', ['urdf/panda.urdf.xacro']),  # 注册 urdf 文件夹
+        ('share/' + package_name + '/urdf', ['urdf/panda.urdf']),  # 注册 urdf 文件夹
     ],
     install_requires=['setuptools'],
     zip_safe=True,

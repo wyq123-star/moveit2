@@ -1,0 +1,9 @@
+/ros_ws/build/urdf_config/CMakeFiles/uninstall.dir
+/ros_ws/build/urdf_config/CMakeFiles/urdf_config_uninstall.dir
+/ros_ws/build/urdf_config/CMakeFiles/test.dir
+/ros_ws/build/urdf_config/CMakeFiles/edit_cache.dir
+/ros_ws/build/urdf_config/CMakeFiles/rebuild_cache.dir
+/ros_ws/build/urdf_config/CMakeFiles/list_install_components.dir
+/ros_ws/build/urdf_config/CMakeFiles/install.dir
+/ros_ws/build/urdf_config/CMakeFiles/install/local.dir
+/ros_ws/build/urdf_config/CMakeFiles/install/strip.dir

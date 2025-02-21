@@ -16,3 +16,5 @@ resource/my_moveit2
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+urdf/panda.urdf
+urdf/panda.urdf.xacro
