@@ -1,0 +1,6 @@
+Invoking command in '/ros_ws/build/assistant': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/my_moveit2:/opt/ros/humble /usr/bin/cmake /ros_ws/src/assistant -DCMAKE_INSTALL_PREFIX=/ros_ws/install/assistant
+Invoked command in '/ros_ws/build/assistant' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/my_moveit2:/opt/ros/humble /usr/bin/cmake /ros_ws/src/assistant -DCMAKE_INSTALL_PREFIX=/ros_ws/install/assistant
+Invoking command in '/ros_ws/build/assistant': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/my_moveit2:/opt/ros/humble /usr/bin/cmake --build /ros_ws/build/assistant -- -j4 -l4
+Invoked command in '/ros_ws/build/assistant' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/my_moveit2:/opt/ros/humble /usr/bin/cmake --build /ros_ws/build/assistant -- -j4 -l4
+Invoking command in '/ros_ws/build/assistant': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/my_moveit2:/opt/ros/humble /usr/bin/cmake --install /ros_ws/build/assistant
+Invoked command in '/ros_ws/build/assistant' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/my_moveit2:/opt/ros/humble /usr/bin/cmake --install /ros_ws/build/assistant

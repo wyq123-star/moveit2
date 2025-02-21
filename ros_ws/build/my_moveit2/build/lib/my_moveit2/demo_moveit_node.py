@@ -1,41 +1,42 @@
 import rclpy
-from moveit_commander import RobotCommander, PlanningSceneInterface, MoveGroupCommander
-from geometry_msgs.msg import Pose
+from rclpy.node import Node
+from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
 
-def move_arm():
-    # 初始化 ROS 2 节点
-    rclpy.init()
+class PandaTrajectoryPublisher(Node):
+    def __init__(self):
+        super().__init__('panda_trajectory_publisher')
+        # 请确保 topic 名称与控制器订阅的匹配（例如 /joint_trajectory）
+        self.publisher = self.create_publisher(JointTrajectory, '/joint_trajectory', 10)
+        self.timer = self.create_timer(1.0, self.publish_trajectory)
+    
+    def publish_trajectory(self):
+        traj_msg = JointTrajectory()
+        traj_msg.header.stamp = self.get_clock().now().to_msg()
+        # 这里使用了 URDF 中定义的机械臂关节名称（panda_joint1 ~ panda_joint7）
+        traj_msg.joint_names = [
+            'panda_joint1',
+            'panda_joint2',
+            'panda_joint3',
+            'panda_joint4',
+            'panda_joint5',
+            'panda_joint6',
+            'panda_joint7'
+        ]
+        point = JointTrajectoryPoint()
+        # 示例：设定目标关节角度，需根据你的运动学模型调整
+        point.positions = [0.0, 0.5, 0.0, -0.5, 0.0, 0.5, 0.0]
+        point.time_from_start.sec = 5  # 期望 5 秒内完成运动
+        traj_msg.points.append(point)
+        
+        self.publisher.publish(traj_msg)
+        self.get_logger().info("已发布运动轨迹指令。")
 
-    # 初始化 MoveIt Commander
-    moveit_commander.roscpp_initialize([])
-
-    # 创建接口对象
-    robot_commander = RobotCommander()
-    scene_interface = PlanningSceneInterface()
-    move_group = MoveGroupCommander("arm")  # "arm" 是你在配置时定义的组名
-
-    # 设置目标位置
-    target_pose = Pose()
-    target_pose.orientation.w = 1.0  # 目标姿态
-    target_pose.position.x = 0.4     # 目标位置
-    target_pose.position.y = 0.0
-    target_pose.position.z = 0.4
-
-    # 设置目标位置
-    move_group.set_pose_target(target_pose)
-
-    # 开始规划并执行
-    success, plan = move_group.go(wait=True)
-
-    if success:
-        print("Planning successful, executing...")
-    else:
-        print("Planning failed")
-
-    # 关闭 MoveIt 相关资源
-    moveit_commander.roscpp_shutdown()
-
+def main(args=None):
+    rclpy.init(args=args)
+    node = PandaTrajectoryPublisher()
+    rclpy.spin(node)
+    node.destroy_node()
     rclpy.shutdown()
 
-if __name__ == "__main__":
-    move_arm()
+if __name__ == '__main__':
+    main()

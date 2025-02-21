@@ -1,6 +1,0 @@
-Invoking command in '/home/wyq/docker/moveit2/ros_ws/build/qwer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wyq/docker/moveit2/ros_ws/src/assistant -DCMAKE_INSTALL_PREFIX=/home/wyq/docker/moveit2/ros_ws/install/qwer
-Invoked command in '/home/wyq/docker/moveit2/ros_ws/build/qwer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wyq/docker/moveit2/ros_ws/src/assistant -DCMAKE_INSTALL_PREFIX=/home/wyq/docker/moveit2/ros_ws/install/qwer
-Invoking command in '/home/wyq/docker/moveit2/ros_ws/build/qwer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/moveit2/ros_ws/build/qwer -- -j4 -l4
-Invoked command in '/home/wyq/docker/moveit2/ros_ws/build/qwer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/moveit2/ros_ws/build/qwer -- -j4 -l4
-Invoking command in '/home/wyq/docker/moveit2/ros_ws/build/qwer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/moveit2/ros_ws/build/qwer
-Invoked command in '/home/wyq/docker/moveit2/ros_ws/build/qwer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/moveit2/ros_ws/build/qwer
