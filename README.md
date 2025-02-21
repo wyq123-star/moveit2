@@ -30,6 +30,8 @@ source install/setup.bash
 ros2 launch my_moveit2 launch.py
 ```
 
+### 目前只做到了配置urdf相关的文件以及编写发送运动指令的节点文件，后续还有控制器相关文件的完善
+
 ### PS:如果以后在容器里遇到rviz2或moveit2_setup_assistant等可视化软件打开报错，在本地目录运行以下代码：
 
 ```bash
