@@ -24,6 +24,7 @@ RUN source /opt/ros/humble/setup.bash && \
 
 # 安装 MoveIt 2 相关依赖
 RUN apt-get update && apt-get install -y \
+    ros-humble-moveit-resources-panda-description \  
     ros-humble-moveit \
     ros-humble-moveit-core \
     ros-humble-moveit-planners \
