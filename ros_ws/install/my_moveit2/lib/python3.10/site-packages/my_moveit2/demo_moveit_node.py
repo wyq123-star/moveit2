@@ -5,8 +5,8 @@ from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
 class PandaTrajectoryPublisher(Node):
     def __init__(self):
         super().__init__('panda_trajectory_publisher')
-        # 请确保 topic 名称与控制器订阅的匹配（例如 /joint_trajectory）
-        self.publisher = self.create_publisher(JointTrajectory, '/joint_trajectory', 10)
+        # 发布到 /follow_joint_trajectory 这个 topic
+        self.publisher = self.create_publisher(JointTrajectory, '/follow_joint_trajectory', 10)
         self.timer = self.create_timer(1.0, self.publish_trajectory)
     
     def publish_trajectory(self):

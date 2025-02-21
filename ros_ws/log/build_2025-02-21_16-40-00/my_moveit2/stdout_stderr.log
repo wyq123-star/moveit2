@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/my_moveit2/my_moveit2.egg-info
+writing ../../build/my_moveit2/my_moveit2.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_moveit2/my_moveit2.egg-info/dependency_links.txt
+writing entry points to ../../build/my_moveit2/my_moveit2.egg-info/entry_points.txt
+writing requirements to ../../build/my_moveit2/my_moveit2.egg-info/requires.txt
+writing top-level names to ../../build/my_moveit2/my_moveit2.egg-info/top_level.txt
+writing manifest file '../../build/my_moveit2/my_moveit2.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_moveit2/my_moveit2.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/my_moveit2/my_moveit2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wyq/docker/moveit2/ros_ws/build/my_moveit2/build
+creating /home/wyq/docker/moveit2/ros_ws/build/my_moveit2/build/lib
+creating /home/wyq/docker/moveit2/ros_ws/build/my_moveit2/build/lib/my_moveit2
+copying my_moveit2/demo_moveit_node.py -> /home/wyq/docker/moveit2/ros_ws/build/my_moveit2/build/lib/my_moveit2
+copying my_moveit2/__init__.py -> /home/wyq/docker/moveit2/ros_ws/build/my_moveit2/build/lib/my_moveit2
+running install
+running install_lib
+creating /home/wyq/docker/moveit2/ros_ws/install/my_moveit2/lib/python3.10/site-packages/my_moveit2
+copying /home/wyq/docker/moveit2/ros_ws/build/my_moveit2/build/lib/my_moveit2/demo_moveit_node.py -> /home/wyq/docker/moveit2/ros_ws/install/my_moveit2/lib/python3.10/site-packages/my_moveit2
+copying /home/wyq/docker/moveit2/ros_ws/build/my_moveit2/build/lib/my_moveit2/__init__.py -> /home/wyq/docker/moveit2/ros_ws/install/my_moveit2/lib/python3.10/site-packages/my_moveit2
+byte-compiling /home/wyq/docker/moveit2/ros_ws/install/my_moveit2/lib/python3.10/site-packages/my_moveit2/demo_moveit_node.py to demo_moveit_node.cpython-310.pyc
+byte-compiling /home/wyq/docker/moveit2/ros_ws/install/my_moveit2/lib/python3.10/site-packages/my_moveit2/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/wyq/docker/moveit2/ros_ws/install/my_moveit2/share/ament_index
+creating /home/wyq/docker/moveit2/ros_ws/install/my_moveit2/share/ament_index/resource_index
+creating /home/wyq/docker/moveit2/ros_ws/install/my_moveit2/share/ament_index/resource_index/packages
+copying resource/my_moveit2 -> /home/wyq/docker/moveit2/ros_ws/install/my_moveit2/share/ament_index/resource_index/packages
+copying package.xml -> /home/wyq/docker/moveit2/ros_ws/install/my_moveit2/share/my_moveit2
+creating /home/wyq/docker/moveit2/ros_ws/install/my_moveit2/share/my_moveit2/launch
+copying launch/launch.py -> /home/wyq/docker/moveit2/ros_ws/install/my_moveit2/share/my_moveit2/launch
+creating /home/wyq/docker/moveit2/ros_ws/install/my_moveit2/share/my_moveit2/urdf
+copying urdf/panda.urdf -> /home/wyq/docker/moveit2/ros_ws/install/my_moveit2/share/my_moveit2/urdf
+running install_egg_info
+Copying ../../build/my_moveit2/my_moveit2.egg-info to /home/wyq/docker/moveit2/ros_ws/install/my_moveit2/lib/python3.10/site-packages/my_moveit2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing demo_moveit_node script to /home/wyq/docker/moveit2/ros_ws/install/my_moveit2/lib/my_moveit2
+writing list of installed files to '/home/wyq/docker/moveit2/ros_ws/build/my_moveit2/install.log'

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ros_ws/src/urdf_config
+CMAKE_SOURCE_DIR = /home/wyq/docker/moveit2/ros_ws/src/urdf_config
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ros_ws/build/urdf_config
+CMAKE_BINARY_DIR = /home/wyq/docker/moveit2/ros_ws/build/urdf_config
 
 # Utility rule file for urdf_config_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/urdf_config_uninstall.dir/compiler_depend.make
 include CMakeFiles/urdf_config_uninstall.dir/progress.make
 
 CMakeFiles/urdf_config_uninstall:
-	/usr/bin/cmake -P /ros_ws/build/urdf_config/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/wyq/docker/moveit2/ros_ws/build/urdf_config/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 urdf_config_uninstall: CMakeFiles/urdf_config_uninstall
 urdf_config_uninstall: CMakeFiles/urdf_config_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/urdf_config_uninstall.dir/clean:
 .PHONY : CMakeFiles/urdf_config_uninstall.dir/clean
 
 CMakeFiles/urdf_config_uninstall.dir/depend:
-	cd /ros_ws/build/urdf_config && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ros_ws/src/urdf_config /ros_ws/src/urdf_config /ros_ws/build/urdf_config /ros_ws/build/urdf_config /ros_ws/build/urdf_config/CMakeFiles/urdf_config_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wyq/docker/moveit2/ros_ws/build/urdf_config && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wyq/docker/moveit2/ros_ws/src/urdf_config /home/wyq/docker/moveit2/ros_ws/src/urdf_config /home/wyq/docker/moveit2/ros_ws/build/urdf_config /home/wyq/docker/moveit2/ros_ws/build/urdf_config /home/wyq/docker/moveit2/ros_ws/build/urdf_config/CMakeFiles/urdf_config_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/urdf_config_uninstall.dir/depend
 

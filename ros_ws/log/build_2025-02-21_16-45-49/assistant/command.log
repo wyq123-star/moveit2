@@ -1,0 +1,4 @@
+Invoking command in '/home/wyq/docker/moveit2/ros_ws/build/assistant': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/moveit2/ros_ws/build/assistant -- -j4 -l4
+Invoked command in '/home/wyq/docker/moveit2/ros_ws/build/assistant' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/moveit2/ros_ws/build/assistant -- -j4 -l4
+Invoking command in '/home/wyq/docker/moveit2/ros_ws/build/assistant': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/moveit2/ros_ws/build/assistant
+Invoked command in '/home/wyq/docker/moveit2/ros_ws/build/assistant' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/moveit2/ros_ws/build/assistant

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ros_ws/src/assistant
+CMAKE_SOURCE_DIR = /home/wyq/docker/moveit2/ros_ws/src/assistant
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ros_ws/build/assistant
+CMAKE_BINARY_DIR = /home/wyq/docker/moveit2/ros_ws/build/assistant
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /ros_ws/build/assistant/CMakeFiles /ros_ws/build/assistant//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wyq/docker/moveit2/ros_ws/build/assistant/CMakeFiles /home/wyq/docker/moveit2/ros_ws/build/assistant//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /ros_ws/build/assistant/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wyq/docker/moveit2/ros_ws/build/assistant/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

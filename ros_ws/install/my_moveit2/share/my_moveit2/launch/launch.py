@@ -5,21 +5,17 @@ from ament_index_python.packages import get_package_share_directory
 from os.path import join
 
 def generate_launch_description():
-    # 包含 my_moveit2 包中的 launch 文件
-    my_moveit2_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            join(get_package_share_directory('my_moveit2'), 'launch', 'launch.py')  # 这里的 launch.py 需要是你的 my_moveit2 包中的启动文件
-        )
-    )
-    
-    # 包含 assistant 包中的 demo.launch.py 文件
-    assistant_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            join(get_package_share_directory('assistant'), 'launch', 'demo.launch.py')  # 这里的 demo.launch.py 需要是你的 assistant 包中的启动文件
-        )
-    )
+    try:
+        urdf_config_launch_path = join(get_package_share_directory('urdf_config'), 'launch', 'demo.launch.py')
 
-    return LaunchDescription([
-        my_moveit2_launch,
-        assistant_launch  # 这里我们使用 assistant_launch
-    ])
+        urdf_config_launch = IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(urdf_config_launch_path)
+        )
+
+        return LaunchDescription([
+            urdf_config_launch
+        ])
+
+    except Exception as e:
+        print(f"错误: 无法找到 urdf_config 包的 demo_launch.py 文件, 请检查 urdf_config 是否正确安装. 详细错误: {e}")
+        return LaunchDescription([])
