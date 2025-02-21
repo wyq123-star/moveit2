@@ -32,7 +32,7 @@ ros2 launch my_moveit2 launch.py
 
 ### PS:如果以后在容器里遇到rviz2或moveit2_setup_assistant等可视化软件打开报错，在本地目录运行以下代码：
 
-    ```bash
-    xhost +local:docker
-    ```
+```bash
+xhost +local:docker
+```
 
