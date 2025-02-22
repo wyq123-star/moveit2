@@ -1,1 +1,0 @@
-/ros_ws/src/my_moveit2/setup.py

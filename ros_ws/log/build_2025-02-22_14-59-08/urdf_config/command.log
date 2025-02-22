@@ -1,0 +1,2 @@
+Invoking command in '/ros_ws/build/urdf_config': /usr/bin/cmake /ros_ws/src/urdf_config -DCMAKE_INSTALL_PREFIX=/ros_ws/install/urdf_config
+Invoked command in '/ros_ws/build/urdf_config' returned '1': /usr/bin/cmake /ros_ws/src/urdf_config -DCMAKE_INSTALL_PREFIX=/ros_ws/install/urdf_config

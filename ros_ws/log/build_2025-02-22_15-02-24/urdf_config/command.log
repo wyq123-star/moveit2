@@ -1,0 +1,4 @@
+Invoking command in '/ros_ws/build/urdf_config': /usr/bin/cmake --build /ros_ws/build/urdf_config -- -j4 -l4
+Invoked command in '/ros_ws/build/urdf_config' returned '0': /usr/bin/cmake --build /ros_ws/build/urdf_config -- -j4 -l4
+Invoking command in '/ros_ws/build/urdf_config': /usr/bin/cmake --install /ros_ws/build/urdf_config
+Invoked command in '/ros_ws/build/urdf_config' returned '0': /usr/bin/cmake --install /ros_ws/build/urdf_config
