@@ -1,0 +1,30 @@
+[0.384s] Invoking command in '/ros_ws/build/my_moveit2': PYTHONPATH=/ros_ws/build/my_moveit2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/install/my_moveit2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /ros_ws/build/my_moveit2/build --no-deps symlink_data
+[0.537s] running develop
+[0.539s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.539s]   warnings.warn(
+[0.624s] running egg_info
+[0.624s] creating my_moveit2.egg-info
+[0.624s] writing my_moveit2.egg-info/PKG-INFO
+[0.624s] writing dependency_links to my_moveit2.egg-info/dependency_links.txt
+[0.624s] writing entry points to my_moveit2.egg-info/entry_points.txt
+[0.624s] writing requirements to my_moveit2.egg-info/requires.txt
+[0.624s] writing top-level names to my_moveit2.egg-info/top_level.txt
+[0.626s] writing manifest file 'my_moveit2.egg-info/SOURCES.txt'
+[0.626s] reading manifest file 'my_moveit2.egg-info/SOURCES.txt'
+[0.626s] writing manifest file 'my_moveit2.egg-info/SOURCES.txt'
+[0.627s] running build_ext
+[0.627s] Creating /ros_ws/install/my_moveit2/lib/python3.10/site-packages/my-moveit2.egg-link (link to .)
+[0.628s] Installing demo_moveit_node script to /ros_ws/install/my_moveit2/lib/my_moveit2
+[0.628s] 
+[0.628s] Installed /ros_ws/build/my_moveit2
+[0.628s] running symlink_data
+[0.628s] creating /ros_ws/install/my_moveit2/share/ament_index
+[0.628s] creating /ros_ws/install/my_moveit2/share/ament_index/resource_index
+[0.628s] creating /ros_ws/install/my_moveit2/share/ament_index/resource_index/packages
+[0.629s] symbolically linking /ros_ws/build/my_moveit2/resource/my_moveit2 -> /ros_ws/install/my_moveit2/share/ament_index/resource_index/packages
+[0.629s] symbolically linking /ros_ws/build/my_moveit2/package.xml -> /ros_ws/install/my_moveit2/share/my_moveit2
+[0.629s] creating /ros_ws/install/my_moveit2/share/my_moveit2/launch
+[0.629s] symbolically linking /ros_ws/build/my_moveit2/launch/launch.py -> /ros_ws/install/my_moveit2/share/my_moveit2/launch
+[0.629s] creating /ros_ws/install/my_moveit2/share/my_moveit2/urdf
+[0.629s] symbolically linking /ros_ws/build/my_moveit2/urdf/panda.urdf -> /ros_ws/install/my_moveit2/share/my_moveit2/urdf
+[0.649s] Invoked command in '/ros_ws/build/my_moveit2' returned '0': PYTHONPATH=/ros_ws/build/my_moveit2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/install/my_moveit2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /ros_ws/build/my_moveit2/build --no-deps symlink_data

@@ -1,6 +1,0 @@
-Invoking command in '/home/wyq/docker/moveit2/ros_ws/build/urdf_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wyq/docker/moveit2/ros_ws/src/urdf_config -DCMAKE_INSTALL_PREFIX=/home/wyq/docker/moveit2/ros_ws/install/urdf_config
-Invoked command in '/home/wyq/docker/moveit2/ros_ws/build/urdf_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wyq/docker/moveit2/ros_ws/src/urdf_config -DCMAKE_INSTALL_PREFIX=/home/wyq/docker/moveit2/ros_ws/install/urdf_config
-Invoking command in '/home/wyq/docker/moveit2/ros_ws/build/urdf_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/moveit2/ros_ws/build/urdf_config -- -j4 -l4
-Invoked command in '/home/wyq/docker/moveit2/ros_ws/build/urdf_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wyq/docker/moveit2/ros_ws/build/urdf_config -- -j4 -l4
-Invoking command in '/home/wyq/docker/moveit2/ros_ws/build/urdf_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/moveit2/ros_ws/build/urdf_config
-Invoked command in '/home/wyq/docker/moveit2/ros_ws/build/urdf_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wyq/docker/moveit2/ros_ws/build/urdf_config

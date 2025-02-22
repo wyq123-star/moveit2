@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:109 (file):
-  file INSTALL cannot find
-  "/home/wyq/docker/moveit2/ros_ws/src/urdf_config/launch/demo_launch.py": No
-  such file or directory.
-
-[0m

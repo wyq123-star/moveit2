@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.000443] (my_moveit2) JobQueued: {'identifier': 'my_moveit2', 'dependencies': OrderedDict()}
+[0.000477] (urdf_config) JobQueued: {'identifier': 'urdf_config', 'dependencies': OrderedDict()}
+[0.000491] (my_moveit2) JobStarted: {'identifier': 'my_moveit2'}
+[0.008055] (urdf_config) JobStarted: {'identifier': 'urdf_config'}
+[0.099824] (-) TimerEvent: {}
+[0.154594] (urdf_config) JobProgress: {'identifier': 'urdf_config', 'progress': 'cmake'}
+[0.154669] (urdf_config) Command: {'cmd': ['/usr/bin/cmake', '/ros_ws/src/urdf_config', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ros_ws/install/urdf_config'], 'cwd': '/ros_ws/build/urdf_config', 'env': OrderedDict([('HOSTNAME', 'wyq-virtual-machine'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros_ws/build/urdf_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:')]), 'shell': False}
+[0.199718] (urdf_config) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199868] (-) TimerEvent: {}
+[0.240245] (urdf_config) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.249776] (urdf_config) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299969] (-) TimerEvent: {}
+[0.302960] (urdf_config) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.307297] (urdf_config) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.307637] (urdf_config) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.308017] (urdf_config) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.310098] (urdf_config) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.376242] (urdf_config) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.381283] (urdf_config) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.381792] (urdf_config) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.382232] (urdf_config) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.384281] (my_moveit2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/ros_ws/build/my_moveit2/build', '--no-deps', 'symlink_data'], 'cwd': '/ros_ws/build/my_moveit2', 'env': {'HOSTNAME': 'wyq-virtual-machine', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XAUTHORITY': '/root/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/ros_ws/build/my_moveit2', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros_ws/build/my_moveit2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/install/my_moveit2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/humble:'}, 'shell': False}
+[0.385857] (urdf_config) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400070] (-) TimerEvent: {}
+[0.499739] (urdf_config) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500148] (-) TimerEvent: {}
+[0.537158] (my_moveit2) StdoutLine: {'line': b'running develop\n'}
+[0.539786] (my_moveit2) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.539903] (my_moveit2) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.552239] (urdf_config) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.600247] (-) TimerEvent: {}
+[0.624142] (my_moveit2) StdoutLine: {'line': b'running egg_info\n'}
+[0.624427] (my_moveit2) StdoutLine: {'line': b'creating my_moveit2.egg-info\n'}
+[0.624471] (my_moveit2) StdoutLine: {'line': b'writing my_moveit2.egg-info/PKG-INFO\n'}
+[0.624555] (my_moveit2) StdoutLine: {'line': b'writing dependency_links to my_moveit2.egg-info/dependency_links.txt\n'}
+[0.624638] (my_moveit2) StdoutLine: {'line': b'writing entry points to my_moveit2.egg-info/entry_points.txt\n'}
+[0.624726] (my_moveit2) StdoutLine: {'line': b'writing requirements to my_moveit2.egg-info/requires.txt\n'}
+[0.624802] (my_moveit2) StdoutLine: {'line': b'writing top-level names to my_moveit2.egg-info/top_level.txt\n'}
+[0.626761] (my_moveit2) StdoutLine: {'line': b"writing manifest file 'my_moveit2.egg-info/SOURCES.txt'\n"}
+[0.626872] (my_moveit2) StdoutLine: {'line': b"reading manifest file 'my_moveit2.egg-info/SOURCES.txt'\n"}
+[0.626908] (my_moveit2) StdoutLine: {'line': b"writing manifest file 'my_moveit2.egg-info/SOURCES.txt'\n"}
+[0.627851] (my_moveit2) StdoutLine: {'line': b'running build_ext\n'}
+[0.627947] (my_moveit2) StdoutLine: {'line': b'Creating /ros_ws/install/my_moveit2/lib/python3.10/site-packages/my-moveit2.egg-link (link to .)\n'}
+[0.628508] (my_moveit2) StdoutLine: {'line': b'Installing demo_moveit_node script to /ros_ws/install/my_moveit2/lib/my_moveit2\n'}
+[0.628669] (my_moveit2) StdoutLine: {'line': b'\n'}
+[0.628745] (my_moveit2) StdoutLine: {'line': b'Installed /ros_ws/build/my_moveit2\n'}
+[0.628786] (my_moveit2) StdoutLine: {'line': b'running symlink_data\n'}
+[0.628841] (my_moveit2) StdoutLine: {'line': b'creating /ros_ws/install/my_moveit2/share/ament_index\n'}
+[0.628897] (my_moveit2) StdoutLine: {'line': b'creating /ros_ws/install/my_moveit2/share/ament_index/resource_index\n'}
+[0.628938] (my_moveit2) StdoutLine: {'line': b'creating /ros_ws/install/my_moveit2/share/ament_index/resource_index/packages\n'}
+[0.629003] (my_moveit2) StdoutLine: {'line': b'symbolically linking /ros_ws/build/my_moveit2/resource/my_moveit2 -> /ros_ws/install/my_moveit2/share/ament_index/resource_index/packages\n'}
+[0.629046] (my_moveit2) StdoutLine: {'line': b'symbolically linking /ros_ws/build/my_moveit2/package.xml -> /ros_ws/install/my_moveit2/share/my_moveit2\n'}
+[0.629140] (my_moveit2) StdoutLine: {'line': b'creating /ros_ws/install/my_moveit2/share/my_moveit2/launch\n'}
+[0.629176] (my_moveit2) StdoutLine: {'line': b'symbolically linking /ros_ws/build/my_moveit2/launch/launch.py -> /ros_ws/install/my_moveit2/share/my_moveit2/launch\n'}
+[0.629209] (my_moveit2) StdoutLine: {'line': b'creating /ros_ws/install/my_moveit2/share/my_moveit2/urdf\n'}
+[0.629240] (my_moveit2) StdoutLine: {'line': b'symbolically linking /ros_ws/build/my_moveit2/urdf/panda.urdf -> /ros_ws/install/my_moveit2/share/my_moveit2/urdf\n'}
+[0.642176] (urdf_config) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.649001] (urdf_config) StdoutLine: {'line': b'-- Generating done\n'}
+[0.649342] (urdf_config) StdoutLine: {'line': b'-- Build files have been written to: /ros_ws/build/urdf_config\n'}
+[0.649674] (my_moveit2) CommandEnded: {'returncode': 0}
+[0.658115] (my_moveit2) JobEnded: {'identifier': 'my_moveit2', 'rc': 0}
+[0.659525] (urdf_config) CommandEnded: {'returncode': 0}
+[0.659728] (urdf_config) JobProgress: {'identifier': 'urdf_config', 'progress': 'build'}
+[0.660322] (urdf_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros_ws/build/urdf_config', '--', '-j4', '-l4'], 'cwd': '/ros_ws/build/urdf_config', 'env': OrderedDict([('HOSTNAME', 'wyq-virtual-machine'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros_ws/build/urdf_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:')]), 'shell': False}
+[0.694631] (urdf_config) CommandEnded: {'returncode': 0}
+[0.700328] (-) TimerEvent: {}
+[0.717232] (urdf_config) JobProgress: {'identifier': 'urdf_config', 'progress': 'install'}
+[0.725896] (urdf_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros_ws/build/urdf_config'], 'cwd': '/ros_ws/build/urdf_config', 'env': OrderedDict([('HOSTNAME', 'wyq-virtual-machine'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros_ws/build/urdf_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:')]), 'shell': False}
+[0.731979] (urdf_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.732252] (urdf_config) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.732434] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/ament_index/resource_index/package_run_dependencies/urdf_config\n'}
+[0.739502] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/ament_index/resource_index/parent_prefix_path/urdf_config\n'}
+[0.746966] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/environment/ament_prefix_path.sh\n'}
+[0.753802] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/environment/ament_prefix_path.dsv\n'}
+[0.759741] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/environment/path.sh\n'}
+[0.765264] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/environment/path.dsv\n'}
+[0.771889] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/local_setup.bash\n'}
+[0.779719] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/local_setup.sh\n'}
+[0.787398] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/local_setup.zsh\n'}
+[0.795471] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/local_setup.dsv\n'}
+[0.800478] (-) TimerEvent: {}
+[0.803157] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/package.dsv\n'}
+[0.810458] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/ament_index/resource_index/packages/urdf_config\n'}
+[0.817965] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/cmake/urdf_configConfig.cmake\n'}
+[0.825094] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/cmake/urdf_configConfig-version.cmake\n'}
+[0.831473] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/package.xml\n'}
+[0.840213] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/launch/demo.launch.py\n'}
+[0.848567] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/launch/move_group.launch.py\n'}
+[0.855128] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/launch/moveit_rviz.launch.py\n'}
+[0.863177] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/launch/rsp.launch.py\n'}
+[0.874279] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/launch/setup_assistant.launch.py\n'}
+[0.879139] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/launch/spawn_controllers.launch.py\n'}
+[0.886486] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/launch/static_virtual_joint_tfs.launch.py\n'}
+[0.893395] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/launch/warehouse_db.launch.py\n'}
+[0.900170] (urdf_config) StdoutLine: {'line': b'-- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/launch/demo.launch.py\n'}
+[0.900555] (-) TimerEvent: {}
+[0.900927] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/config/initial_positions.yaml\n'}
+[0.908593] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/config/joint_limits.yaml\n'}
+[0.916436] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/config/kinematics.yaml\n'}
+[0.925004] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/config/moveit.rviz\n'}
+[0.931912] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/config/moveit_controllers.yaml\n'}
+[0.938449] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/config/panda.ros2_control.xacro\n'}
+[0.945066] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/config/panda.srdf\n'}
+[0.951142] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/config/panda.urdf.xacro\n'}
+[0.957742] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/config/pilz_cartesian_limits.yaml\n'}
+[0.964068] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/config/ros2_controllers.yaml\n'}
+[0.970120] (urdf_config) StdoutLine: {'line': b'-- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/.setup_assistant\n'}
+[0.977638] (urdf_config) CommandEnded: {'returncode': 0}
+[1.000683] (-) TimerEvent: {}
+[1.008365] (urdf_config) JobEnded: {'identifier': 'urdf_config', 'rc': 0}
+[1.009099] (-) EventReactorShutdown: {}
