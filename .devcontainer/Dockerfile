@@ -35,6 +35,9 @@ RUN apt-get update && apt-get install -y \
     ros-humble-controller-manager \
     && rm -rf /var/lib/apt/lists/*
 
+# 安装缺少的 Python 依赖
+RUN apt-get update && apt-get install -y python3-ament-package
+
 # 构建 ROS 2 工作空间
 RUN source /opt/ros/humble/setup.bash && colcon build --symlink-install
 
