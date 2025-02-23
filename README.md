@@ -13,6 +13,7 @@
 2. 构建容器：
     ```bash
     cd .devcontainer
+    docker compose build
     docker compose up
     ```
     
