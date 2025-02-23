@@ -1,0 +1,41 @@
+[0.174s] Invoking command in '/ros_ws/build/urdf_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/my_moveit2:/opt/ros/humble /usr/bin/cmake --build /ros_ws/build/urdf_config -- -j4 -l4
+[0.203s] Invoked command in '/ros_ws/build/urdf_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/my_moveit2:/opt/ros/humble /usr/bin/cmake --build /ros_ws/build/urdf_config -- -j4 -l4
+[0.234s] Invoking command in '/ros_ws/build/urdf_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/my_moveit2:/opt/ros/humble /usr/bin/cmake --install /ros_ws/build/urdf_config
+[0.241s] -- Install configuration: ""
+[0.242s] -- Execute custom install script
+[0.242s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/ament_index/resource_index/package_run_dependencies/urdf_config
+[0.242s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/ament_index/resource_index/parent_prefix_path/urdf_config
+[0.242s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/environment/ament_prefix_path.sh
+[0.242s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/environment/ament_prefix_path.dsv
+[0.242s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/environment/path.sh
+[0.242s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/environment/path.dsv
+[0.242s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/local_setup.bash
+[0.243s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/local_setup.sh
+[0.243s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/local_setup.zsh
+[0.243s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/local_setup.dsv
+[0.243s] -- Symlinking: /ros_ws/install/urdf_config/share/urdf_config/package.dsv
+[0.249s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/ament_index/resource_index/packages/urdf_config
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/cmake/urdf_configConfig.cmake
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/cmake/urdf_configConfig-version.cmake
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/package.xml
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/launch/demo.launch.py
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/launch/move_group.launch.py
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/launch/moveit_rviz.launch.py
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/launch/rsp.launch.py
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/launch/setup_assistant.launch.py
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/launch/spawn_controllers.launch.py
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/launch/static_virtual_joint_tfs.launch.py
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/launch/warehouse_db.launch.py
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/launch/demo.launch.py
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/config/initial_positions.yaml
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/config/joint_limits.yaml
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/config/kinematics.yaml
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/config/moveit.rviz
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/config/moveit_controllers.yaml
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/config/panda.ros2_control.xacro
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/config/panda.srdf
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/config/panda.urdf.xacro
+[0.251s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/config/pilz_cartesian_limits.yaml
+[0.252s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/config/ros2_controllers.yaml
+[0.252s] -- Up-to-date symlink: /ros_ws/install/urdf_config/share/urdf_config/.setup_assistant
+[0.254s] Invoked command in '/ros_ws/build/urdf_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/my_moveit2:/opt/ros/humble /usr/bin/cmake --install /ros_ws/build/urdf_config
