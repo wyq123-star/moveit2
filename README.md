@@ -26,7 +26,8 @@
 
 ```bash
 colcon build
-source install/setup.bash
+source /opt/ros/humble/setup.bash
+source /ros_ws/install/setup.bash
 ros2 launch my_moveit2 launch.py
 ```
 
